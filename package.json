@@ -1,7 +1,6 @@
 {
-  "name": "STE",
+  "name": "ste",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "scripts": {
     "start:dev": "concurrently \"cd client && npm run build\" \"cd server && npm run server\" ",
@@ -21,5 +20,6 @@
   "devDependencies": {
     "concurrently": "^8.2.2",
     "nodemon": "^3.1.0"
-  }
+  },
+  "description": ""
 }
