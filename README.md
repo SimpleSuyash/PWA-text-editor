@@ -117,9 +117,9 @@ Then, in `Client` level
 If you wish to use this repo,
 
 - Get a copy of this repo to your local machine
-- Install the node module in the root directory
+- Install the node modules in the client and server directories
   ```
-  npm i
+  npm run install
   ```
 - Start the app
   ```
@@ -152,5 +152,5 @@ Screenshot showing the Lighthouse audit
 ![App's Cache Storage](./assets/screenshots/audit.png)
 
 ## Deployed App Link
-[Live on Render](https://pwa-text-editor-arc0.onrender.com/)
 
+[Live on Render](https://pwa-text-editor-arc0.onrender.com/)
