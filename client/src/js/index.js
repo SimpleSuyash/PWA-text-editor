@@ -2,7 +2,7 @@ import { Workbox } from "workbox-window";
 import Editor from "./editor";
 import "./database";
 import "../css/style.css";
-import Screenshot from "../images/screenshot.png";
+import "../images/screenshot.png";
 
 const main = document.querySelector("#main");
 main.innerHTML = "";

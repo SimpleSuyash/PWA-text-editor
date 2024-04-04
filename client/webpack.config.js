@@ -39,7 +39,7 @@ module.exports = () => {
           test: /\.css$/i,
           use: ["style-loader", "css-loader"],
         },
-        
+
         //image loaders
         {
           test: /\.(png|svg|jpe?g|gif)$/i,
@@ -85,8 +85,8 @@ module.exports = () => {
           "A simple text editor to create notes or code snippets with or without an internet connection",
         display: "standalone",
         orientation: "any",
-        background_color: "#f3e9d2",
-        theme_color: "#225ca3",
+        background_color: "#272822",
+        theme_color: "#209ed9",
         start_url: "./",
         publicPath: "./",
         id: "/",
@@ -96,6 +96,8 @@ module.exports = () => {
             src: path.resolve("src/images/logo.png"),
             sizes: [96, 128, 192, 256, 384, 512],
             destination: path.join("assets", "icons"),
+            type: "image/png",
+            purpose: "any",
           },
         ],
         screenshots: [

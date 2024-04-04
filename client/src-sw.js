@@ -44,16 +44,16 @@ const imageCache =  new CacheFirst({
   ],
 })
 
-// Implementing offline fallback
-// This will show the index.html page when the user is offline
 offlineFallback(
-  { pageFallback: "/index.html" },
+  {
+    pageFallback: "./index.html",
+  },
   pageCache
 );
 
 // to load provided urls in cache during service worker installation
 warmStrategyCache({
-  urls: ["/index.html", "/"],
+  urls: ["./index.html", "/"],
   strategy: pageCache,
 });
 
