@@ -152,3 +152,5 @@ Screenshot showing the Lighthouse audit
 ![App's Cache Storage](./assets/screenshots/audit.png)
 
 ## Deployed App Link
+[Live on Render](https://pwa-text-editor-arc0.onrender.com/)
+
