@@ -44,6 +44,7 @@ const imageCache =  new CacheFirst({
   ],
 })
 
+// to serve the offline page when the user is offline
 offlineFallback(
   {
     pageFallback: "./index.html",
